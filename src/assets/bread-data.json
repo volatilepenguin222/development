@@ -1,0 +1,262 @@
+[
+  {
+    "id": 0,
+    "name": "dutch crunch",
+    "description": "cronch is sweet sf attack on tastebuds",
+    "tier": "S",
+    "rating": 1,
+    "image": "images/dutchcrunch.jpeg",
+    "taste": "versatile",
+    "diet": ["egg-free", "dairy-free"]
+  },
+  {
+    "id": 1,
+    "name": "tomato basil loaf",
+    "description": "my dirty little secret, a dark horse",
+    "tier": "S",
+    "rating": 2,
+    "image": "images/dutchcrunch.jpeg",
+    "taste": "savory",
+    "diet": []
+  },
+  {
+    "id": 2,
+    "name": "durum",
+    "description": "the most flavorful basic of all time",
+    "tier": "A",
+    "rating": 1,
+    "image": "images/dutchcrunch.jpeg",
+    "taste": "versatile",
+    "diet": ["egg-free", "dairy-free"]
+  },
+  {
+    "id": 3,
+    "name": "challah",
+    "description": "crying in rhode island rn",
+    "tier": "B",
+    "rating": 1,
+    "image": "images/dutchcrunch.jpeg",
+    "taste": "versatile",
+    "diet": []
+  },
+  {
+    "id": 4,
+    "name": "pretzel",
+    "description": "any typa soft pretzel is welcome my my way",
+    "tier": "A",
+    "rating": 0,
+    "image": "images/dutchcrunch.jpeg",
+    "taste": "versatile",
+    "diet": []
+  },
+  {
+    "id": 5,
+    "name": "raisin cinnamon",
+    "description": "a lil fruity, a lil spicy",
+    "tier": "B",
+    "rating": 1,
+    "image": "images/dutchcrunch.jpeg",
+    "taste": "sweet",
+    "diet": []
+  },
+  {
+    "id": 6,
+    "name": "steamed bun",
+    "description": "steamy steamy reminds me of a warm hug",
+    "tier": "B",
+    "rating": 1,
+    "image": "images/dutchcrunch.jpeg",
+    "taste": "versatile",
+    "diet": ["egg-free"]
+  },
+  {
+    "id": 7,
+    "name": "sourdough",
+    "description": " a lil tang sour but not too much tang for me please n lots of fluff required",
+    "tier": "B",
+    "rating": 1,
+    "image": "images/dutchcrunch.jpeg",
+    "taste": "versatile",
+    "diet": ["egg-free", "dairy-free"]
+  },
+  {
+    "id": 8,
+    "name": "pumpernickel",
+    "description": "\"I have a bread and it's called pumpernickel Yum, yum, pumpernickel, pumpernickel bread\" - Barney, 2000",
+    "tier": "S",
+    "rating": 0,
+    "image": "images/dutchcrunch.jpeg",
+    "taste": "versatile",
+    "diet": ["egg-free"]
+  },
+  {
+    "id": 9,
+    "name": "bagel",
+    "description": "chompy, good with anything",
+    "tier": "A",
+    "rating": 1,
+    "image": "images/dutchcrunch.jpeg",
+    "taste": "versatile",
+    "diet": ["egg-free"]
+  },
+  {
+    "id": 10,
+    "name": "crispbread",
+    "description": "The crouton no one asked for. holds up to anything. a clean slate.",
+    "tier": "B",
+    "rating": 0,
+    "image": "images/dutchcrunch.jpeg",
+    "taste": "versatile",
+    "diet": ["egg-free", "dairy-free"]
+  },
+  {
+    "id": 11,
+    "name": "muffin",
+    "description": "tend to be let down.. too cakey, light fluffy.. if i'm lookin for cake then i'll eat cake - i like a dense muffin tho",
+    "tier": "C",
+    "rating": 1,
+    "image": "images/dutchcrunch.jpeg",
+    "taste": "sweet",
+    "diet": []
+  },
+  {
+    "id": 12,
+    "name": "croissant",
+    "description": "i will say i respect a good, fresh croissant, but it doesn't mean i like them. I don't like the milky flavor and when the flakes no longer cronch, they just kinda taste oily-soggy",
+    "tier": "D",
+    "rating": 0,
+    "image": "images/dutchcrunch.jpeg",
+    "taste": "versatile",
+    "diet": []
+  },
+  {
+    "id": 13,
+    "name": "frybread",
+    "description": "happy traditions :) almost threw up in the car from the amount of oil though.",
+    "tier": "C",
+    "rating": 1,
+    "image": "images/dutchcrunch.jpeg",
+    "taste": "versatile",
+    "diet": ["egg-free", "dairy-free"]
+  },
+  {
+    "id": 14,
+    "name": "melon melon pan",
+    "description": "tbh any soft chompy bread with a layer of crispy cookie is up there. but melon flavored?? +5 :D",
+    "tier": "A",
+    "rating": 0,
+    "image": "images/dutchcrunch.jpeg",
+    "taste": "sweet",
+    "diet": []
+  },
+  {
+    "id": 15,
+    "name": "salt bread",
+    "description": "typa butter dough i like - not too enriched so not too much milky flavor in the dough itself, the butter gets to be its own star",
+    "tier": "B",
+    "rating": 1,
+    "image": "images/dutchcrunch.jpeg",
+    "taste": "savory",
+    "diet": []
+  },
+  {
+    "id": 16,
+    "name": "parotta",
+    "description": "ahhh [that meme of that guy rubbing his face]",
+    "tier": "B",
+    "rating": 1,
+    "image": "images/dutchcrunch.jpeg",
+    "taste": "savory",
+    "diet": []
+  },
+  {
+    "id": 17,
+    "name": "focaccia",
+    "description": "chefs kiss",
+    "tier": "B",
+    "rating": 1,
+    "image": "images/dutchcrunch.jpeg",
+    "taste": "savory",
+    "diet": []
+  },
+  {
+    "id": 18,
+    "name": "cinnamon roll",
+    "description": "it has its moments, my style is pillowy, doughy, ....",
+    "tier": "D",
+    "rating": 1,
+    "image": "images/dutchcrunch.jpeg",
+    "taste": "sweet",
+    "diet": []
+  },
+  {
+    "id": 19,
+    "name": "ciabatta",
+    "description": "the best when you need somethin toasty",
+    "tier": "B",
+    "rating": 1,
+    "image": "images/dutchcrunch.jpeg",
+    "taste": "versatile",
+    "diet": ["egg-free"]
+  },
+  {
+    "id": 20,
+    "name": "milk bread",
+    "description": "the better version of brioche, eh but it's like white bread got a lift. I respect for a certain variety of sandwiches.",
+    "tier": "C",
+    "rating": 1,
+    "image": "images/dutchcrunch.jpeg",
+    "taste": "versatile",
+    "diet": []
+  },
+  {
+    "id": 21,
+    "name": "lebkuchen",
+    "description": "ok I KNOW it's technically a cookie, but it's a soft gingerBREAD cookie so it deserves to be on this list.",
+    "tier": "A",
+    "rating": 1,
+    "image": "images/dutchcrunch.jpeg",
+    "taste": "sweet",
+    "diet": []
+  },
+  {
+    "id": 22,
+    "name": "cornbread",
+    "description": "yummy when you feel like a cozy holiday meal",
+    "tier": "C",
+    "rating": 1,
+    "image": "images/dutchcrunch.jpeg",
+    "taste": "sweet",
+    "diet": []
+  },
+  {
+    "id": 23,
+    "name": "dinner rolls",
+    "description": "Think the costco ones that always mold before you can finish the bag. nostalgic.",
+    "tier": "C",
+    "rating": 1,
+    "image": "images/dutchcrunch.jpeg",
+    "taste": "sweet",
+    "diet": []
+  },
+  {
+    "id": 24,
+    "name": "pavlova",
+    "description": "breadlike in my headspace? eating a cloud. accept the sweettooth.",
+    "tier": "C",
+    "rating": 1,
+    "image": "images/dutchcrunch.jpeg",
+    "taste": "sweet",
+    "diet": ["gluten-free"]
+  },
+  {
+    "id": 25,
+    "name": "steamed rice cake",
+    "description": "spongey texture, naturally gluten-free. slight sourness that grows on ya. bonus points if steamed in banana leafs and topped with shredded baby coconut :>",
+    "tier": "C",
+    "rating": 1,
+    "image": "images/dutchcrunch.jpeg",
+    "taste": "sweet",
+    "diet": ["gluten-free", "egg-free"]
+  }
+]
