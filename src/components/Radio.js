@@ -28,7 +28,8 @@ const OptionButtons = styled.button`
   height: 12px;
   border-radius: 6px;
   border-width: 0px;
-  background-color: ${(props) => (props.selected ? "#82c6e3" : "#88d0ef")};
+  background-color: ${(props) =>
+    props.selected ? "rgb(111, 150, 111)" : "rgb(208, 222, 193)"};
   box-shadow: ${(props) =>
     props.selected
       ? "inset 0px 3px 5px 0px rgb(103, 128, 134)"

@@ -1,6 +1,7 @@
 html {
   font-family: "Jost", sans-serif;
   background-color: ivory;
+  cursor: default;
 }
 
 .layout {
@@ -18,8 +19,13 @@ a:hover {
   cursor: alias;
 }
 
+button {
+  cursor: pointer;
+}
+
 h1 {
   font-size: 4em;
+  margin-bottom: 20px;
 }
 
 h2 {
@@ -31,10 +37,11 @@ h2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 40px;
+  padding-left: 30px;
 }
 
 .grid > div {
-  background-color: lightyellow;
+  background-color: rgb(238, 238, 215);
   border-radius: 8px;
   padding: 30px;
   transition: 0.4s;
@@ -54,6 +61,11 @@ section {
   padding-right: 10vw;
 }
 
+.Breads {
+  padding-left: 3vw;
+  flex: 4;
+}
+
 .Compartment {
   display: flex;
 }
@@ -61,9 +73,15 @@ section {
 .Sidebar {
   background-color: darkseagreen;
   position: sticky;
-  top: 90px;
-  height: 60vh;
-  width: 300px;
+  top: 30px;
+  height: 80vh;
+  border-radius: 10px;
+  flex: 1;
+  margin-left: 10vw;
+  padding: 15px;
+  overflow-y: auto;
+  max-width: 10%;
+  min-width: 20pt;
 }
 
 .radio-container {
@@ -74,4 +92,57 @@ section {
   flex: 1;
   flex-direction: column;
   padding: 10px;
+  margin-bottom: 15px;
+}
+
+.Description {
+  margin-bottom: 30px;
+}
+
+/* img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.Outer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  flex: 20;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.favbutton {
+  flex: 1;
+}
+
+.Bottom {
+  flex: 1;
+  display: flex;
+  color: rgb(113, 112, 112);
+  font-style: italic;
+  justify-content: space-evenly;
+}
+
+.Details {
+  flex: 10;
+  height: 20px;
+}
+
+.Filters > div {
+  padding-bottom: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.Filters {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 5px;
 }

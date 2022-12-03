@@ -3,13 +3,18 @@ import { useEffect, useState } from "react";
 import { Radio } from "./components/Radio";
 import breadData from "./assets/bread-data.json";
 import BreadItem from "./components/BreadItem.js";
-import { css, jsx } from "@emotion/react";
-import styled from "@emotion/styled";
-import { Checkbox, FormControlLabel, FormGroup } from "@mui/material";
+import {
+  Checkbox,
+  FormControlLabel,
+  FormGroup,
+  FormHelperText,
+} from "@mui/material";
 
 function App() {
-  const [byTaste, setByTaste] = useState("all");
-  const [byDiet, setByDiet] = useState([]);
+  const initialTaste = "all";
+  const initialDiet = [];
+  const [byTaste, setByTaste] = useState(initialTaste);
+  const [byDiet, setByDiet] = useState(initialDiet);
   const [sortBy, setSortBy] = useState("tier");
 
   //agreggator/////////////////////////////////////////
@@ -25,6 +30,10 @@ function App() {
     new Array(breadData.length).fill("Add to would-eat-right-now list")
   );
 
+  function handleReset() {
+    setByTaste(initialTaste);
+    setByDiet(initialDiet);
+  }
   const handleFavs = (item) => {
     setFavoritesToggle(!favoritesToggle);
   };
@@ -106,6 +115,13 @@ function App() {
         <button
           className={buttonClass[item.id]}
           onClick={() => handleToggle(item.id)}
+          style={{
+            display: "block",
+            marginLeft: "auto",
+            marginRight: "auto",
+            marginTop: "20px",
+            // fontSize: "16px",
+          }}
         >
           {buttonDisplay[item.id]}
         </button>
@@ -125,11 +141,9 @@ function App() {
     return (
       <div className="grid">
         {third.map((item) => (
-          <div>
-            <div>
-              <BreadItem item={item}></BreadItem>
-              {FavoritesButton(item)}
-            </div>
+          <div className="card">
+            <BreadItem item={item}></BreadItem>
+            <div className="favButton">{FavoritesButton(item)}</div>
           </div>
         ))}
       </div>
@@ -246,6 +260,16 @@ function App() {
               <Checkbox
                 onChange={() => handleToggle(value.name)}
                 checked={byDiet.includes(value.name) ? true : false}
+                size="small"
+                sx={{
+                  color: "rgb(208, 222, 193)",
+                  padding: 0,
+                  paddingLeft: 1.5,
+                  paddingRight: 0.25,
+                  "&.Mui-checked": {
+                    color: "rgb(111, 150, 111)",
+                  },
+                }}
               />
             }
             label={value.name}
@@ -275,7 +299,7 @@ function App() {
         <div>
           <h1>ULTIMATE BREADS RANKED</h1>
           <h2>Bread Lover</h2>
-          <div>
+          <div className="Description">
             subjective tiers and ranks of breads or ~breadlike things i've
             tried. The aggregator adds up ratings of favorited breads. Feel free
             to try and match my perfect bread list (the aggregated rating for my
@@ -287,30 +311,30 @@ function App() {
       <div className="Compartment">
         <div className="Sidebar">
           <div>
-            <div>
-              <div>Sort By:</div>
-              <div className="SortOptions">
-                <Radio
-                  value="tier"
-                  selected={sortBy}
-                  text="by tier"
-                  onChange={handleSortChange}
-                />
-                <Radio
-                  value="rating"
-                  selected={sortBy}
-                  text="by rating"
-                  onChange={handleSortChange}
-                />
-                <Radio
-                  value="alpha"
-                  selected={sortBy}
-                  text="alphabetically"
-                  onChange={handleSortChange}
-                />
-              </div>
+            <div>Sort:</div>
+            <div className="SortOptions">
+              <Radio
+                value="tier"
+                selected={sortBy}
+                text="by tier"
+                onChange={handleSortChange}
+              />
+              <Radio
+                value="rating"
+                selected={sortBy}
+                text="by rating"
+                onChange={handleSortChange}
+              />
+              <Radio
+                value="alpha"
+                selected={sortBy}
+                text="alphabetically"
+                onChange={handleSortChange}
+              />
             </div>
-            <div>Taste</div>
+          </div>
+          <div>
+            <div>Taste:</div>
             <div className="SortOptions">
               <Radio
                 value="all"
@@ -337,32 +361,44 @@ function App() {
                 onChange={handleTasteChange}
               />
             </div>
-            <div>Dietary Restrictions</div>
+          </div>
+          <div>
+            <div>Dietary Restrictions:</div>
             <div className="SortOptions">
               <DietCheckbox
                 handleFilters={(filters) => handleFilters(filters)}
               />
             </div>
-            <div>Favorites</div>
-            <div className="SortOptions">
-              <FormGroup>
-                <FormControlLabel
-                  control={
-                    <Checkbox
-                      onChange={() => handleFavs()}
-                      // checked={byDiet.includes(value.name) ? true : false}
-                    />
-                  }
-                  label={"would-eat-right-now rating:"}
-                />
-              </FormGroup>
-              {total}
-            </div>
+          </div>
+          <button onClick={handleReset}>RESET FILTERS</button>
+          <div className="SortOptions">
+            <FormGroup sx={{ paddingTop: 3 }}>
+              <FormControlLabel
+                control={
+                  <Checkbox
+                    size="small"
+                    sx={{
+                      color: "rgb(208, 222, 193)",
+                      padding: 0,
+                      paddingLeft: 0,
+                      paddingRight: 0.25,
+                      "&.Mui-checked": {
+                        color: "rgb(111, 150, 111)",
+                      },
+                    }}
+                    onChange={() => handleFavs()}
+                  />
+                }
+                label={"Favorites"}
+              />
+            </FormGroup>
+            <FormHelperText>would-eat-right-now rating: {total}</FormHelperText>
+            {/* <div> would-eat-right-now rating: {total}</div> */}
           </div>
         </div>
 
-        <section>
-          <h2>Top Breads</h2>
+        <section className="Breads">
+          {/* <h2>Top Breads</h2> */}
           {BreadList()}
         </section>
       </div>
@@ -371,99 +407,3 @@ function App() {
 }
 
 export default App;
-
-{
-  //// S 1 A B C D E F
-  /* <div>
-            <h2>dutch crunch</h2>
-            <div> cronch is sweet sf attack on tastebuds</div>
-          </div>
-          <div>
-            <h2>durum</h2>
-            <div> the most flavorful basic of all time</div>
-          </div>
-          <div>
-            <h2>challah</h2>
-            <div> crying in rhode island rn</div>
-          </div>
-          <div>
-            <h2>raisin cinnamon</h2>
-            <div> a lil fruity</div>
-          </div>
-          <div>
-            <h2>steamed bun</h2>
-            <div> steamy steamy reminds me of my mom</div>
-          </div>
-          <div>
-            <h2>sourdough</h2>
-            <div>
-              {" "}
-              a lil tang sour but not too much tang for me please n lots of
-              fluff required
-            </div>
-          </div>
-          <div>
-            <h2>pumpernickel</h2>
-            <div>
-              {" "}
-              "I have a bread and it's called pumpernickel Yum, yum,
-              pumpernickel, pumpernickel bread" - Barney, 2000
-            </div>
-          </div>
-          <div>
-            <h2>bagel</h2>
-            <div> chompy, good with anything</div>
-          </div>
-          <div>
-            <h2>crispbread</h2>
-            <div>
-              {" "}
-              The crouton no one asked for. holds up to anything. a clean slate.
-            </div>
-          </div>
-          <div>
-            <h2>croissant</h2>
-            <div>
-              {" "}
-              i will say i respect a good, fresh croissant, but it doesn't mean
-              i like them. I don't like the milky flavor and when the flakes no
-              longer cronch, they just kinda taste oily-soggy
-            </div>
-          </div>
-          <div>
-            <h2>frybread</h2>
-            <div>
-              {" "}
-              happy traditions :) almost threw up in the car from the amount of
-              oil though.
-            </div>
-          </div>
-          <div>
-            <h2>melon melon pan</h2>
-            <div>
-              {" "}
-              tbh any soft chompy bread with a layer of crispy cookie is up
-              there. but melon flavored?? +5 :D
-            </div>
-          </div>
-          <div>
-            <h2>salt bread</h2>
-            <div>
-              {" "}
-              typa butter dough i like - not too enriched so not too much milky
-              flavor in the dough itself, the butter gets to be its own star
-            </div>
-          </div>
-          <div>
-            <h2>parotta</h2>
-            <div> ahhh [that meme of that guy rubbing his face]</div>
-          </div>
-          <div>
-            <h2>focaccia</h2>
-            <div> chefs kiss</div>
-          </div>
-          <div>
-            <h2>ciabatta</h2>
-            <div> the best when you need somethin toasty</div>
-          </div> */
-}
