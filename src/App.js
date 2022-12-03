@@ -225,13 +225,27 @@ function App() {
   //for custom sort order
   const TierList = {
     //S A B C D E F
-    S: 1,
-    A: 2,
-    B: 3,
-    C: 4,
-    D: 5,
-    E: 6,
-    F: 7,
+    "S+": 1,
+    S: 2,
+    "S-": 3,
+    "A+": 4,
+    A: 5,
+    "A-": 6,
+    "B+": 7,
+    B: 8,
+    "B-": 9,
+    "C+": 10,
+    C: 11,
+    "C-": 12,
+    "D+": 13,
+    D: 14,
+    "D-": 15,
+    "E+": 16,
+    E: 17,
+    "E-": 18,
+    "F+": 19,
+    F: 20,
+    "F-": 21,
   };
 
   //checkbox/////////////////////////////////////////////////////
@@ -303,7 +317,10 @@ function App() {
             subjective tiers and ranks of breads or ~breadlike things i've
             tried. The aggregator adds up ratings of favorited breads. Feel free
             to try and match my perfect bread list (the aggregated rating for my
-            perfect bread list is:[still calculating this]):)
+            perfect bread list is:[still calculating this]):) Some may think
+            that these ratings are harsh, but i would like to remind that this
+            list is TOP TIER, best of the best/memorable experiences/i've been
+            dogged into including them.
           </div>
         </div>
       </section>
