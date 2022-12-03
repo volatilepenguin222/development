@@ -5,7 +5,7 @@
     "description": "cronch is sweet sf attack on tastebuds",
     "tier": "S",
     "rating": 72,
-    "image": "images/dutchcrunch.jpeg",
+    "image": "images/dutchcrunch.jpg",
     "taste": "versatile",
     "diet": ["egg-free", "nut-free"]
   },
@@ -15,7 +15,7 @@
     "description": "my dirty little secret, a dark horse",
     "tier": "S+",
     "rating": 96,
-    "image": "images/dutchcrunch.jpeg",
+    "image": "images/tomatobasil.jpg",
     "taste": "savory",
     "diet": ["egg-free", "nut-free", "dairy-free"]
   },
@@ -25,7 +25,7 @@
     "description": "the most flavorful basic of all time - very holey, lightly spongy but with a chewy crust. MAX FLAVOR",
     "tier": "S",
     "rating": 101,
-    "image": "images/dutchcrunch.jpeg",
+    "image": "images/durum.jpg",
     "taste": "versatile",
     "diet": ["egg-free", "dairy-free", "nut-free"]
   },
@@ -35,7 +35,7 @@
     "description": "crying in rhode island rn. Flavor/texture-wise - very similar to hawaiian sweet rolls but heartier and a more substantial crust.",
     "tier": "C",
     "rating": 34,
-    "image": "images/dutchcrunch.jpeg",
+    "image": "images/challah.jpg",
     "taste": "versatile",
     "diet": ["dairy-free", "nut-free"]
   },
@@ -45,7 +45,7 @@
     "description": "any typa soft pretzel is welcome my my way",
     "tier": "A",
     "rating": 931,
-    "image": "images/dutchcrunch.jpeg",
+    "image": "images/pretzel.jpg",
     "taste": "versatile",
     "diet": ["nut-free", "egg-free"]
   },
@@ -55,7 +55,7 @@
     "description": "a lil fruity",
     "tier": "B",
     "rating": 77,
-    "image": "images/dutchcrunch.jpeg",
+    "image": "images/raisincinnamon.jpg",
     "taste": "sweet",
     "diet": ["nut-free"]
   },
@@ -65,7 +65,7 @@
     "description": "steamy steamy reminds me of a warm hug",
     "tier": "B",
     "rating": 60,
-    "image": "images/dutchcrunch.jpeg",
+    "image": "images/steambuns.jpg",
     "taste": "versatile",
     "diet": ["egg-free"]
   },
@@ -75,7 +75,7 @@
     "description": " a lil tang sour but not too much tang for me please n lots of fluff required",
     "tier": "B",
     "rating": 50,
-    "image": "images/dutchcrunch.jpeg",
+    "image": "images/sourdough.jpg",
     "taste": "versatile",
     "diet": ["egg-free", "dairy-free", "nut-free"]
   },
@@ -85,7 +85,7 @@
     "description": "\"I have a bread and it's called pumpernickel Yum, yum, pumpernickel, pumpernickel bread\" - Barney, 2000",
     "tier": "S+",
     "rating": 1444,
-    "image": "images/dutchcrunch.jpeg",
+    "image": "images/pumpernickel.jpg",
     "taste": "versatile",
     "diet": ["egg-free", "nut-free", "dairy-free"]
   },
@@ -95,7 +95,7 @@
     "description": "chompy, good with anything",
     "tier": "A-",
     "rating": 1000,
-    "image": "images/dutchcrunch.jpeg",
+    "image": "images/bagel.jpg",
     "taste": "versatile",
     "diet": ["egg-free", "nut-free", "dairy-free"]
   },
@@ -105,7 +105,7 @@
     "description": "The crouton no one asked for. holds up to anything. a clean slate.",
     "tier": "C+",
     "rating": 40,
-    "image": "images/dutchcrunch.jpeg",
+    "image": "images/crispbread.jpg",
     "taste": "versatile",
     "diet": ["egg-free", "dairy-free", "nut-free"]
   },
@@ -115,7 +115,7 @@
     "description": "tend to be let down.. too cakey, light fluffy.. if i'm lookin for cake then i'll eat cake - i like a dense muffin tho",
     "tier": "D",
     "rating": 7,
-    "image": "images/dutchcrunch.jpeg",
+    "image": "images/muffin.jpg",
     "taste": "sweet",
     "diet": []
   },
@@ -125,7 +125,7 @@
     "description": "i will say i respect a good, fresh croissant, but it doesn't mean i like them. I don't like the milky flavor and when the flakes no longer cronch, they just kinda taste oily-soggy",
     "tier": "C-",
     "rating": 1,
-    "image": "images/dutchcrunch.jpeg",
+    "image": "images/croissant.jpg",
     "taste": "versatile",
     "diet": ["nut-free"]
   },
@@ -135,7 +135,7 @@
     "description": "happy traditions :) almost threw up in the car from the amount of oil though.",
     "tier": "E",
     "rating": 3,
-    "image": "images/dutchcrunch.jpeg",
+    "image": "images/frybread.jpeg",
     "taste": "versatile",
     "diet": ["egg-free", "dairy-free", "nut-free"]
   },
@@ -145,7 +145,7 @@
     "description": "tbh any soft chompy bread with a layer of crispy cookie is up there. but melon flavored?? +5 :D",
     "tier": "A",
     "rating": 200,
-    "image": "images/dutchcrunch.jpeg",
+    "image": "images/melonmelonpan.jpg",
     "taste": "sweet",
     "diet": ["nut-free"]
   },
@@ -155,7 +155,7 @@
     "description": "typa butter dough i like - not too enriched so not too much milky flavor in the dough itself, the butter gets to be its own star",
     "tier": "B-",
     "rating": 49,
-    "image": "images/dutchcrunch.jpeg",
+    "image": "images/saltbread.jpg",
     "taste": "savory",
     "diet": ["egg-free", "nut-free"]
   },
@@ -165,7 +165,7 @@
     "description": "ahhh [that meme of that guy rubbing his face]",
     "tier": "A-",
     "rating": 143,
-    "image": "images/dutchcrunch.jpeg",
+    "image": "images/parotta.jpg",
     "taste": "savory",
     "diet": ["egg-free", "nut-free", "dairy-free"]
   },
@@ -175,7 +175,7 @@
     "description": "chefs kiss",
     "tier": "B",
     "rating": 87,
-    "image": "images/dutchcrunch.jpeg",
+    "image": "images/focaccia.jpg",
     "taste": "savory",
     "diet": ["egg-free", "nut-free", "dairy-free"]
   },
@@ -185,7 +185,7 @@
     "description": "it has its moments, my style is pillowy, doughy, ....",
     "tier": "D+",
     "rating": 22,
-    "image": "images/dutchcrunch.jpeg",
+    "image": "images/cinnamonroll.jpg",
     "taste": "sweet",
     "diet": ["nut-free"]
   },
@@ -195,7 +195,7 @@
     "description": "the best when you need somethin toasty",
     "tier": "B",
     "rating": 56,
-    "image": "images/dutchcrunch.jpeg",
+    "image": "images/ciabatta.jpg",
     "taste": "versatile",
     "diet": ["egg-free"]
   },
@@ -205,7 +205,7 @@
     "description": "the better version of brioche, eh but it's like white bread got a lift. I respect for a certain variety of sandwiches.",
     "tier": "C",
     "rating": 31,
-    "image": "images/dutchcrunch.jpeg",
+    "image": "images/milkbread.jpg",
     "taste": "versatile",
     "diet": ["egg-free", "nut-free"]
   },
@@ -215,7 +215,7 @@
     "description": "ok I KNOW it's technically a cookie, but it's a soft gingerBREAD cookie so it deserves to be on this list.",
     "tier": "A",
     "rating": 300,
-    "image": "images/dutchcrunch.jpeg",
+    "image": "images/lebkuchen.jpg",
     "taste": "sweet",
     "diet": []
   },
@@ -225,7 +225,7 @@
     "description": "yummy when you feel like a cozy holiday meal",
     "tier": "C+",
     "rating": 62,
-    "image": "images/dutchcrunch.jpeg",
+    "image": "images/cornbread.jpg",
     "taste": "sweet",
     "diet": ["nut-free"]
   },
@@ -235,7 +235,7 @@
     "description": "Think the costco ones that always mold before you can finish the bag. nostalgic.",
     "tier": "C-",
     "rating": 75,
-    "image": "images/dutchcrunch.jpeg",
+    "image": "images/dinnerrolls.JPG",
     "taste": "sweet",
     "diet": ["nut-free"]
   },
@@ -245,7 +245,7 @@
     "description": "breadlike in my headspace? eating a cloud. accept the sweettooth.",
     "tier": "B-",
     "rating": 49,
-    "image": "images/dutchcrunch.jpeg",
+    "image": "images/pavlova.jpg",
     "taste": "sweet",
     "diet": ["gluten-free", "nut-free", "dairy-free"]
   },
@@ -255,7 +255,7 @@
     "description": "spongey texture, naturally gluten-free. slight sour tang (from an active yeast) that grows on ya.",
     "tier": "C+",
     "rating": 75,
-    "image": "images/dutchcrunch.jpeg",
+    "image": "images/steamedricecake.jpg",
     "taste": "sweet",
     "diet": ["gluten-free", "egg-free", "nut-free", "dairy-free"]
   },
@@ -265,7 +265,7 @@
     "description": "like the rice cakes but better - palm sugar, baby coconut, wrapped in banana leaf - fragraaant~~~ ",
     "tier": "A+",
     "rating": 99,
-    "image": "images/dutchcrunch.jpeg",
+    "image": "images/kanomtan.jpg",
     "taste": "sweet",
     "diet": ["gluten-free", "egg-free", "nut-free", "dairy-free"]
   }
