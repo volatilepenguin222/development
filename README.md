@@ -30,7 +30,7 @@ A user can sort items by their deemed tier, rating, or alphabetically. Additiona
 
 ### How Data is Passed Down Through Components
 
-Bread data is an object stored in a JSON format in bread-data.json. This data is passed through various sort and filter functions until it is passed through a BreadItem.js component and rendered on the platform. Upon any sorting or filtering button click, Data will be filtered by the user-determined taste, then dietary restrictions, then sort. If the Favorites option is toggled, then this occurs before sort. Finally, each data is mapped as its own item with its own add-to-favorites toggle button. Pressing the favorites toggle button of an item uses the rating of that item to either be added or subtracted (depending if the user favorites or unfavorites) to the total rating.
+Bread data is an object stored in a JSON format in bread-data.json. This data is passed through various sort and filter functions until it is passed through a BreadItem.js component and rendered on the platform. Upon any sorting or filtering button click, Data will be filtered by the user-determined taste, then dietary restrictions, then sort. If the Favorites option is toggled, then the favorites list is used as the initial object to filter on rather than the full bread list. Finally, each data is mapped as its own item with its own add-to-favorites toggle button. Pressing the favorites toggle button of an item uses the rating of that item to either be added or subtracted (depending if the user favorites or unfavorites) to the total rating.
 
 ### How the User Triggers State Changes
 
