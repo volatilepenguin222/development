@@ -317,10 +317,10 @@ function App() {
             subjective tiers and ranks of breads or ~breadlike things i've
             tried. The aggregator adds up ratings of user-favorited breads. Feel
             free to try and match my perfect bread list (the aggregated rating
-            for my perfect bread list is: 4598) Some may think that these
-            ratings are harsh, but i would like to remind that this list is TOP
-            TIER, best of the best/memorable experiences/i've been dogged into
-            including them.
+            for my perfect bread list is currently: 4598). Some may think that
+            these ratings are harsh, but i would like to remind that this list
+            is TOP TIER, best of the best/memorable experiences/i've been dogged
+            into including them.
           </div>
         </div>
       </section>
