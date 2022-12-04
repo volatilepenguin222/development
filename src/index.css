@@ -39,6 +39,7 @@ h2 {
   grid-gap: 40px;
   padding-left: 0;
   margin-left: 0px;
+  padding-bottom: 75px;
 }
 
 .grid > div {
